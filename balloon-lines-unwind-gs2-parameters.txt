@@ -1,0 +1,39 @@
+balloon-lines-unwind-gs2-parameters.txt
+
+Read from balloon line 3 top unwind. 
+They should all be the same.
+balloon line  1, 2, 3, 4, 5, 6, 7.
+
+Changed parameters.
+
+P0.00	240		motor voltage
+P0.01	7.0		motor amps
+P0.02	60		motor base frequency
+P0.03	1750		motor base RPM
+P0.04	1750		motor max RPM
+
+P1.00	01		stop method coast
+P1.01	0.1		acceleration time sec
+P1.02	0.1		deceleration time sec
+P1.18	50		DC injection current %
+P1.20 	0.3		DC injection during startup sec
+P1.21	0.3		DC injection during stop sec
+P1.22	1.0		setpoint for DC injection Hz
+
+P2.00	03		Volts/Hz setting Custom
+P2.02	01		Auto torque boost 00 to 10
+
+P2.06	0.1		minimum output frequency Hz
+P2.07	3.4		Min. Output Voltage
+
+P3.00	01		Source of Operation Command	 01: Operation determined by external control terminals, keypad STOP is enabled
+P3.11	03		Multi-Function Output Terminal 1 03: Zero Speed
+
+P4.00	02		02: Frequency determined by 0 to +10V, input on AI terminal with jumpers
+P4.01	02		Analog Input Offset Polarity, 02: Negative Offset
+P4.02	81.2		Analog Input Offset, 0.0 to 100.0%
+P4.03	200		Analog Input Gain, 0.0 to 300.0%	
+P4.04	01		Analog Input Reverse Motion Enable, 01: Reverse Motion Enable
+
+P6.30	01		Line Start Lockout, 01: Disable Line Start Lockout 
+
